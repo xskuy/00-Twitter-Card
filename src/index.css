@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: #222;
+  background:rgb(0, 0, 0);
   font-family: system-ui;
   display: grid;
   place-content: center;
@@ -11,4 +11,6 @@ body{
   display: flex;
   flex-direction: column;
   gap: 8px;
+  background-color: rgb(30, 30, 30);
+  border-radius: 25px;
 }

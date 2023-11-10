@@ -1,17 +1,17 @@
 export const users = [
   {
-    userName: 'xSkuy',
+    userName: 'xskuy',
     name: 'Benjamin',
     initIsFollow: true,
   },
   {
-    userName: 'Hardwell',
-    name: 'Robbert',
-    initIsFollow: false,
+    userName: 'pato-anabalon',
+    name: 'Pato Anabalon',
+    initIsFollow: true,
   },
   {
-    userName: 'MartinGarrix',
-    name: 'Martin',
+    userName: 'ashtom',
+    name: 'Thomas Dohmke',
     initIsFollow: true,
   },
   {
@@ -22,7 +22,7 @@ export const users = [
   {
     userName: 'midudev',
     name: 'Miguel',
-    initIsFollow: true,
+    initIsFollow: false,
   }
 
 ]

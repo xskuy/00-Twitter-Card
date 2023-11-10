@@ -7,7 +7,7 @@ export function App() {
 
   return (
     <section className='App'>
-      <h1 className='tw-text'>X</h1>
+      <h1 className='tw-text'>How to follow</h1>
       <ul className='tw-follow-card-list'>
         {users.map((user) => (
           <li className='tw-follow-card-item' key={user.userName}>
@@ -21,9 +21,6 @@ export function App() {
         ))}
       </ul>
     </section>
-
-
-
   )
 }
 

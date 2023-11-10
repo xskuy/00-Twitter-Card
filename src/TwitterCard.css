@@ -1,5 +1,10 @@
 .tw-text{
   color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 23px;
+  margin: 0px;
+
 }
 .tw-follow-card{
   display: flex;
@@ -7,8 +12,6 @@
   color: #fff;
   font-size: .8rem;
   justify-content: space-between;
-
-  
 }
 
 .tw-follow-card-header{
@@ -16,7 +19,6 @@
   align-items: center;
   gap: 7px;
   justify-content: space-between;
-
 }
 
 .tw-follow-card-info{
@@ -56,7 +58,6 @@
   color: #fff;
   border: 2px solid rgb(44, 56, 63); 
   width: 100px;
-  
 }
 
 .tw-follow-card-button.is-following:hover{
@@ -80,7 +81,6 @@
 .tw-follow-card-list{
   list-style-type: none;
   display: flex;
-  gap: 15px;
   margin-top: 10px;
   justify-content: center;
   flex-direction: column;
@@ -88,3 +88,15 @@
   padding: 0px;
 }
 
+.tw-follow-card-item{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+
+}
+
+.tw-follow-card-item:hover{
+  background-color: rgb(11, 12, 15);
+  transition: .4s;
+}

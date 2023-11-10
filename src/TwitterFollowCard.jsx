@@ -35,11 +35,10 @@ export function TwitterFollowCard({ formatUsarName, userName = 'unkmnow', name, 
 
 
 TwitterFollowCard.propTypes = {
-  formatUsarName: PropTypes.string.isRequired,
+  formatUsarName: PropTypes.func.isRequired,
   userName: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  initIsFollow: PropTypes.bool,
-
+  initIsFollow: PropTypes.bool
 };
 
 export default TwitterFollowCard;
