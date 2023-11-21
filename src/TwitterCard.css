@@ -49,7 +49,7 @@
   border: 2px solid;
   padding: 6px 16px; 
   font-weight: bold;
-  transition: .4s ease background-color;
+
   min-width: 100px;
 }
 
@@ -64,7 +64,7 @@
   background-color: rgb(28, 12, 16);
   color: red;
   border: 2px solid rgb(59, 02, 05);
-  transition: .6s;
+
 } 
 
 .tw-follow-card-button.is-following:hover .tw-followCard-text{
@@ -98,5 +98,5 @@
 
 .tw-follow-card-item:hover{
   background-color: rgb(11, 12, 15);
-  transition: .4s;
+
 }

@@ -34,6 +34,7 @@ export function TwitterFollowCard({ formatUsarName, userName = 'unkmnow', name, 
 }
 
 
+
 TwitterFollowCard.propTypes = {
   formatUsarName: PropTypes.func.isRequired,
   userName: PropTypes.string.isRequired,
