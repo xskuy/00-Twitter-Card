@@ -13,7 +13,7 @@ git clone <url del repositorio>
 cd <nombre del repositorio>
 npm install
 npm start
-
+````
 🖥️ Uso
 Después de la instalación, puedes abrir la aplicación en tu navegador web. Verás una serie de tarjetas de seguimiento que puedes usar para seguir a otras personas.
 
